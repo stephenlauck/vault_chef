@@ -11,6 +11,7 @@
 `kitchen converge vault-cluster-.*-cent`
 
 ### Validate
+`kitchen verify vault-cluster-.*-cent`
 
 ### Walkthrough
 
