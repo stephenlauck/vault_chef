@@ -1,4 +1,7 @@
 # vault_chef
 
-TODO: Enter the cookbook description here.
+### Install
+`kitchen converge vault-cluster-.*-cent`
 
+### Validate
+Confirm Consul's log with `sudo journalctl -u vault`

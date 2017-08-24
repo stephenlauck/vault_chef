@@ -1,5 +1,5 @@
 #
-# Cookbook:: vault_chef
+# Cookbook:: vault_cluster
 # Recipe:: default
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.

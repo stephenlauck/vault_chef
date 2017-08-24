@@ -1,9 +1,9 @@
 name 'vault_chef'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
-description 'Installs/Configures vault_chef'
-long_description 'Installs/Configures vault_chef'
+maintainer 'Stephen Lauck'
+maintainer_email 'stephen@hashicorp.com'
+license 'Apache-2.0'
+description 'Installs/Configures Hashicorp Vault'
+
 version '0.1.0'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
@@ -18,3 +18,5 @@ chef_version '>= 12.1' if respond_to?(:chef_version)
 # a Supermarket.
 #
 # source_url 'https://github.com/<insert_org_here>/vault_chef'
+
+depends 'consul_chef'
