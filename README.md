@@ -99,3 +99,6 @@ value           	bar
 
 [vagrant@vault-cluster-01-centos-73 ~]$
 ```
+
+### DNS
+`dig +short @127.0.0.1 -p 8600 active.vault.service.consul. ANY`
