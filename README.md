@@ -7,7 +7,7 @@
 
 [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
 
-### Install
+### Run
 `kitchen converge vault-cluster-.*-cent`
 
 ### Validate
