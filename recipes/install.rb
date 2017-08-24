@@ -67,3 +67,7 @@ systemd_unit 'vault.service' do
 
   action [:create, :enable, :start]
 end
+
+file '/etc/profile.d/vault.sh' do
+  content 'export VAULT_ADDR=http://127.0.0.1:8200'
+end
